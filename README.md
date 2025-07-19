@@ -20,13 +20,13 @@ bathrooms: The independent variable (number of bathrooms).
 Getting Started
 Follow these instructions to get the project running on your local machine.
 
-#Prerequisites
+# Prerequisites
 You need to have Python installed. The project uses the following Python libraries:
 
-1.pandas
+1.pandas 
 2.scikit-learn
 
-#Pythoncode
+# Pythoncode
 
 
 import pandas as pd
