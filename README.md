@@ -1,23 +1,23 @@
 # PRODIGY_ML_01
-the task is about implementing a linear regression model for the provided dataset for the purpose of predicting the house prices based upon sq.feet and no.of bedrooms and bathrooms
-House Price Prediction using Linear Regression 🏡
+The task is about implementing a linear regression model for the provided dataset for the purpose of predicting the house prices based upon sq.feet and no.of bedrooms and bathrooms
+House Price Prediction using Linear Regression 🏡.
 A simple Python project that predicts house prices based on square footage, number of bedrooms, and bathrooms using a linear regression model.
 
-Description
+# Description
 This project demonstrates a fundamental machine learning workflow. It takes a dataset of housing information, trains a linear regression model on specific features (area, bedrooms, bathrooms), and evaluates its performance. The final output shows a comparison between the actual house prices and the prices predicted by the model, formatted as clean, whole numbers.
 
-Dataset
+**Dataset** :
 The model is trained on the Housing.csv dataset. This file contains various attributes of houses, but for this specific model, we only use the following columns:
 
-price: The target variable (actual price of the house).
+**price**: The target variable (actual price of the house).
 
-area: The independent variable (total square footage).
+**area**: The independent variable (total square footage).
 
-bedrooms: The independent variable (number of bedrooms).
+**bedrooms**: The independent variable (number of bedrooms).
 
-bathrooms: The independent variable (number of bathrooms).
+**bathrooms**: The independent variable (number of bathrooms).
 
-Getting Started
+**Getting** **Started**
 Follow these instructions to get the project running on your local machine.
 
 # Prerequisites
