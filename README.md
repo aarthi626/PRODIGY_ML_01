@@ -30,8 +30,14 @@ You need to have Python installed. The project uses the following Python librari
 
 
 import pandas as pd
+
+
 from sklearn.model_selection import train_test_split
+
+
 from sklearn.linear_model import LinearRegression
+
+
 from sklearn.metrics import mean_squared_error, r2_score
 
 # --- 1. Load the Dataset ---
