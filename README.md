@@ -91,12 +91,12 @@ print(final_display_df.head())
 #Output
 Running the script will print the model's performance metrics followed by a table comparing the actual and predicted prices for a sample of the test data.
 
---- Model Performance ---
+# --- Model Performance ---
 Features Used: ['area', 'bedrooms', 'bathrooms']
 Mean Squared Error: 2750040479309.0522
 R-squared: 0.4559299118872445
 
---- Price Prediction Breakdown ---
+# --- Price Prediction Breakdown ---
      Sq. Feet  Bedrooms  Bathrooms  Actual Price  Predicted Price
 316      5900         4          2       4060000          6383168
 77       6500         3          2       6650000          6230250
