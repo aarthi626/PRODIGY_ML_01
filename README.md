@@ -113,6 +113,7 @@ Mean Squared Error: 2750040479309.0522
 R-squared: 0.4559299118872445
 
 # --- Price Prediction Breakdown ---
+
          Sq. Feet     Bedrooms   Bathrooms  Actual Price     Predicted Price
 
 316      5900         4          2          4060000          6383168
