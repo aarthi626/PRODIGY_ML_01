@@ -27,6 +27,8 @@ You need to have Python installed. The project uses the following Python librari
 2.scikit-learn
 
 #Pythoncode
+
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
