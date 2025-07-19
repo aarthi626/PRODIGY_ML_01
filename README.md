@@ -20,41 +20,13 @@ bathrooms: The independent variable (number of bathrooms).
 Getting Started
 Follow these instructions to get the project running on your local machine.
 
-Prerequisites
+#Prerequisites
 You need to have Python installed. The project uses the following Python libraries:
 
-pandas
+1.pandas
+2.scikit-learn
 
-scikit-learn
-
-You can install them using pip:
-
-Bash
-
-pip install pandas scikit-learn
-Installation
-Clone the repository:
-
-Bash
-
-git clone https://github.com/your-username/your-repository-name.git
-Navigate to the project directory:
-
-Bash
-
-cd your-repository-name
-Place the dataset: Make sure the Housing.csv file is in the same folder as the Python script. This is crucial to avoid a FileNotFoundError.
-
-Usage
-Run the Python script from your terminal to see the results:
-
-Bash
-
-python your_script_name.py
-The complete code is included in your_script_name.py:
-
-Python
-
+#Pythoncode
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
@@ -106,7 +78,7 @@ final_display_df = results_display_df[['Sq. Feet', 'Bedrooms', 'Bathrooms', 'Act
 
 print("--- Price Prediction Breakdown ---")
 print(final_display_df.head())
-Output
+#Output
 Running the script will print the model's performance metrics followed by a table comparing the actual and predicted prices for a sample of the test data.
 
 --- Model Performance ---
